@@ -1,5 +1,5 @@
 # random-listtool
-`random-listtool` is a tool to rearrange lines of `.txt` file to the other.
+`random-listtool` is a tool to rearrange lines of file to the other.
 
 ## Usage
 `./random-listtool input.txt output.txt`
