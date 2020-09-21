@@ -42,10 +42,11 @@ int main(int argc, char *argv[]) {
     std::uniform_int_distribution<size_t> range(0, i);
 
     while(i--) {
-        auto const idx = range(rnd) % (i + 1);
+        auto const idx = range(rnd);
         auto const tmp = data[i];
         data[i] = data[idx];
         data[idx] = tmp;
         out << data[i] << std::endl;
     }
+    out.close();
 }
