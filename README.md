@@ -1,4 +1,7 @@
 # random-listtool
+
+#### version 0.1
+
 `random-listtool` is a tool to rearrange lines of file to the other.
 
 ## Usage
